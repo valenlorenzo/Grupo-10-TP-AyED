@@ -1,0 +1,53 @@
+#include <iostream>
+using namespace std;
+struct Persona {
+    int dni;
+    int edad;
+    char sexo;
+    char estudios;
+    char completo;
+}
+struct Familia{
+    int identificador;
+    char vivienda;
+    int cantIntegrantes;
+    Persona integrantes[1000];
+}
+void cargarEncuesta();
+void mostrarResultados();
+{   
+    int opcion;
+    do{
+        cout<<"\nMENU: "<<endl;
+        cout<<"1. Cargar y procesar encuesta"<<endl;
+        cout<<"2. Mostrar resultados"<<endl;
+        cout<<"3. Salir"<<endl;
+        cout<<"Elija una opcion: ";
+        cin>>opcion;
+        switch (opcion){
+            case 1:
+            cargarEncuesta();
+            break;
+            case 2:
+            mostrarResultados();
+            break;
+            case 3:
+            break;
+            default: 
+            cout<<"Opcion no valida."<<endl;
+        }
+    } while (opcion!=3);
+    return 0;
+}
+void cargarEncuesta (){
+
+}
+void mostrarResultados(){
+    int primariaCompleta;
+    float analfabetos; //porcentaje mayores de 10 años sin estudios
+    int mayorDepto;
+    int promedioEdad;
+    int cantEncuestados;
+    
+    
+}
