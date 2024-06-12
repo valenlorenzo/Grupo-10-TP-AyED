@@ -49,18 +49,18 @@ cin>>familia.cantIntegrantes;
 
 while(identificador != 0){
 
-for (int i=0;i<cantIntegrantes*5;i+5){
+for (int i=1;i<cantIntegrantes*5;i*5){
 cout<<"ingresar integrante numero: "<<i+1<<endl;
 cout<<"ingresar dni: ";
-cin>>personasintegrantes[i];
+cin>>personasintegrantes[i-1];
 cout<<"ingresar edad: ";
-cin>>personasintegrantes[i+1];
+cin>>personasintegrantes[i];
 cout<<"ingresar sexo: ";
-cin>>personasintegrantes[i+2];
+cin>>personasintegrantes[i+1];
 cout<<"ingresar estudios alcanzados: ";
-cin>>personasintegrantes[i+3];
+cin>>personasintegrantes[i+2];
 cout<<"ingresar estudios completos o incompletos: ";
-cin>>personasintegrantes[i+4];
+cin>>personasintegrantes[i+3];
 }
 
 cout<<"Cargar identificador de Familia: ";
