@@ -53,7 +53,7 @@ cout<<"Cargar tipo de vivienda: ";
 cin>>familia.vivienda;
 cout<<"Cargar cantidad de integrantes: ";
 cin>>familia.cantIntegrantes;
-for (int i=1;i<cantIntegrantes*5;i*5){
+for (int i=1;i<familia.cantIntegrantes*5;i*5){
 cout<<"ingresar integrante numero: "<<i+1<<endl;
 cout<<"ingresar dni: ";
 cin>>personasintegrantes[i-1];
