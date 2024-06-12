@@ -56,16 +56,16 @@ void cargarEncuesta (){
         cin>>familia.cantIntegrantes;
 
         for (int i=1;i<familia.cantIntegrantes*5;i*5){
-            cout<<"ingresar integrante numero: "<<i+1<<endl;
-            cout<<"ingresar dni: ";
+            cout<<"Ingresar integrante numero: "<<i+1<<endl;
+            cout<<"Ingresar dni: ";
             cin>>personasintegrantes[i-1];
-            cout<<"ingresar edad: ";
+            cout<<"Ingresar edad: ";
             cin>>personasintegrantes[i];
-            cout<<"ingresar sexo: ";
+            cout<<"Ingresar sexo: ";
             cin>>personasintegrantes[i+1];
-            cout<<"ingresar estudios alcanzados: ";
+            cout<<"Ingresar estudios alcanzados: ";
             cin>>personasintegrantes[i+2];
-            cout<<"ingresar estudios completos o incompletos: ";
+            cout<<"Ingresar estudios completos o incompletos: ";
             cin>>personasintegrantes[i+3];
         }
 
