@@ -48,7 +48,8 @@ cout<<"Cargar cantidad de integrantes: ";
 cin>>familia.cantIntegrantes;
 while(identificador != 0){
 for (int i=0;i<cantIntegrantes*5;i++){
-persona
+cout<<"ingresar integrante numero: "<<i+1<<endl;
+personasintegrantes
 }
 cout<<"Cargar identificador de Familia: ";
 cin>>familia.identificador;
