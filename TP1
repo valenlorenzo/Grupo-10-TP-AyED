@@ -46,7 +46,9 @@ cout<<"Cargar tipo de vivienda: ";
 cin>>familia.vivienda;
 cout<<"Cargar cantidad de integrantes: ";
 cin>>familia.cantIntegrantes;
+
 while(identificador != 0){
+
 for (int i=0;i<cantIntegrantes*5;i++){
 cout<<"ingresar integrante numero: "<<i+1<<endl;
 cout<<"ingresar dni: ";
@@ -59,17 +61,16 @@ cout<<"ingresar estudios alcanzados: ";
 cin>>personasintegrantes[i+3];
 cout<<"ingresar estudios completos o incompletos: ";
 cin>>personasintegrantes[i+4];
-
-
 }
+
 cout<<"Cargar identificador de Familia: ";
 cin>>familia.identificador;
 cout<<"Cargar tipo de vivienda: ";
 cin>>familia.vivienda;
 cout<<"Cargar cantidad de integrantes: ";
 cin>>familia.cantIntegrantes;
-
 }
+
 void mostrarResultados(){
     int primariaCompleta;
     float analfabetos; //porcentaje mayores de 10 años sin estudios
