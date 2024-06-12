@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 struct Persona {
     int dni;
     int edad;
@@ -7,15 +8,18 @@ struct Persona {
     char estudios;
     char completo;
 }
+
 struct Familia{
     int identificador;
     char vivienda;
     int cantIntegrantes;
     char Personasintegrantes[1000];
 }
+
 void cargarEncuesta();
 void mostrarResultados();
-{   
+
+int main () {   
     int opcion;
     do{
         cout<<"\nMENU: "<<endl;
@@ -39,6 +43,7 @@ void mostrarResultados();
     } while (opcion!=3);
     return 0;
 }
+
 void cargarEncuesta (){
 cout<<"Cargar identificador de Familia: ";
 cin>>familia.identificador;
