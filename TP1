@@ -49,7 +49,7 @@ cin>>familia.cantIntegrantes;
 
 while(identificador != 0){
 
-for (int i=0;i<cantIntegrantes*5;i++){
+for (int i=0;i<cantIntegrantes*5;i+5){
 cout<<"ingresar integrante numero: "<<i+1<<endl;
 cout<<"ingresar dni: ";
 cin>>personasintegrantes[i];
