@@ -5,7 +5,7 @@ struct Persona {
     int dni;
     int edad;
     char sexo;
-    char estudios;
+    char estudios; //"N" (no posee) - "P" (primario)- "S" (secundario) - "T" (terciario) - "U" (universitario)    
     char completo;
 }
 
